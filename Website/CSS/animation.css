@@ -1,0 +1,72 @@
+
+
+.border-animation::after{
+
+	content: "";
+	width: 0%;
+	height: 3px;
+	background-color: #3FFFA7;
+	position: relative;
+	display: block;
+	top: 3px;
+	transition: all 400ms ease;
+}
+
+.border-animation:hover::after {
+
+	width: 100%;
+
+}
+
+/* Homepage animation button */
+
+.btn-sub1:hover{
+
+	background-color: transparent;
+	padding-right: 30px;
+}
+
+.fa-angle-right{
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+	transition: all 500ms ease;
+}
+
+.btn-sub2:hover{
+
+	border: 1px solid #EDF2F4;
+	background: linear-gradient(#EDA748 ,#E14687);
+
+}
+
+.fa-arrow-right{
+
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+	transition: all 500ms ease;
+
+}
+
+/* Footer */
+
+footer span:hover{
+
+	color: #3F494C;
+	background-color: white;
+
+}
+
+.top a:hover {
+
+	color: #707679;
+
+}
+
+/* Sticky */
+
+.sticky {
+
+	background-color: #E14688;
+	padding: 0% 4%;
+	transition: all 400ms ease;
+}

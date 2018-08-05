@@ -1,0 +1,279 @@
+body {
+	margin: 0%;
+	padding: 0%;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+.site-wrapper {
+
+	width: 100%;
+	height: 100%;
+	background-image: url('Stock/Nav.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #232225;
+}
+
+.navbar-nav li a {
+
+	font-size: 0.8em;
+	margin: 0pc 10px;
+	color: #F7FFF7 !important;
+}
+
+.site-title {
+
+	text-align: center;
+	margin-top: 7%;
+	height: 74vh;
+
+}
+
+.site-title h1{
+
+	font-size: 10em;
+	margin: 5% 0%; 
+}
+
+.title-text {
+
+	width:80vw;
+	height: 5vh;
+	font-size: 1.25em;
+	color: #F6F8FF;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.btn-sub1 {
+
+	font-family: 'Patua One';
+	border: 2px solid #DA408F;
+	background-color: #EDF2F4;
+	color: #DA408F;
+	border-radius: 3px;
+	padding: 0.7em 1em;
+	cursor: pointer;
+	transition: all 500ms ease;
+}
+
+.btn-sub2 {
+
+	font-family: "Patua One";
+	padding: 0.7em 1em;
+	background: linear-gradient( #70FDFF, #3FFFA7);
+	border: 2px solid #EDF2F4;
+	color: #EDF2F4;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: all 500ms ease;
+}
+
+.site-tite i {
+
+	padding-left: 0.3em;
+}
+
+/* Content -1*/
+
+.content-1 .col-md-12 h4 {
+
+	font-size: 20px;
+	color: #DA408F;
+
+}
+
+.content-1 .col-md-12 .title-border {
+
+	content: "";
+	width: 30%;
+	height: 2px;
+	display: block;
+	background-color: #DA408F;
+	border-radius: 50%;
+	margin: 1%;
+	margin-left: 35%;
+}
+
+.content-1 .col-md-12 p {
+
+	font-size: 11px;
+	color: #3F494C;
+
+}
+
+.content-1 .circle {
+
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	
+	background-color: #F7FFF7;
+	border: 1px solid rgba(63, 73, 76, 0.205);
+	color: #16dddd;
+	transition: all 200ms ease;
+
+}
+
+.content-1 .description a {
+
+	text-decoration: none;
+
+}
+
+.content-1 .description p{
+
+	font-size: 11px;
+
+}
+
+/* Content -2 */
+ .content-2 .row .col-1 {
+
+ 	background-image: url("Stock/wood.jpg");
+ 	background-size: cover;
+ 	background-position: center;
+ 	background-attachment: fixed;
+ 	background-repeat: no-repeat;
+ }
+
+.content-2 .col-md-6 p{
+
+	font-size: 12px;
+
+}
+
+.content-2 .progress-bars{
+
+	margin-bottom: 8vh;
+}
+
+.progress .pro-1, .pro-2, .pro-3 {
+
+	width: 0%;
+	transition: all 2s ease;
+
+}
+
+/* Content 4 */
+
+.footer {
+    margin-top: 10px;
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(-90deg, #F3A63D, #E53F8A);
+    color: white;
+    text-align: center;
+}
+
+#footer-text {
+
+	padding: 20px;
+
+}
+
+.content-4 .nav {
+
+	justify-content: center;
+	margin: 5%;
+
+}
+
+.content-4 .nav-tabs {
+
+	margin: 2px;
+	border: 1px solid rgb(232, 232,232);
+	border-bottom: 0px;
+	text-align: center;
+	cursor: pointer;
+	background-color: #EDF2F4;
+}
+
+.content-4 .tab-item{
+
+	text-decoration: none;
+	color: #3F494C;	
+
+}
+
+.content-4 .tab-item i{
+
+	display: block;
+	font-size: 45px;
+	padding: 0.4em 1.7em 0em 1.7em;
+}
+
+.content-4 .tab-item span {
+
+	display: inline-block;
+	padding-bottom: 1em;
+	width: 100%;
+
+}
+
+.content-4 .tab-item.active {
+
+	color: #BD529B;
+
+}
+
+.tab-content {
+
+	margin-bottom: 5%;
+	transition: all 400ms ease;
+}
+
+/* Content 6 */
+
+.content-6{
+
+	margin-bottom: 5%;
+}
+.content-6 .contact span {
+
+	color: #3FFFA7;
+}
+
+.content-6 .btn-submit {
+
+	background-color: #46FFBB;
+	color: white;
+	cursor: pointer;
+}
+
+/* Footer */
+
+footer{
+
+	background-color: #21272A;
+	padding-top: 4%;
+	margin: 0px;
+	position: relative;
+}
+
+footer span {
+
+	padding: 0.3em 0.7em;
+	color: white;
+	background-color: #70777a;
+	border-radius: 50%;
+	margin: 13px 3px;
+	transition: all 500ms ease;
+}
+
+footer p{
+
+	margin: 0px;
+	font-size: 13px;
+	padding-bottom: 8px;
+}
+
+footer .top a {
+
+	position: absolute;
+	right: 2%;
+	top: 69%;
+	color: white;
+	transition: all 500ms ease;
+}
